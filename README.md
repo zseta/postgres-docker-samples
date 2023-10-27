@@ -9,6 +9,11 @@ Spin up local PostgreSQL instances in seconds with preloaded sample data.
 * [stocks](/movies/) ([data source](https://www.kaggle.com/datasets/aayushmishra1512/faang-complete-stock-data))
 
 ## Get started
+1. Clone the repository:
+    ```
+    git clone https://github.com/zseta/postgres-docker-samples.git
+    ```
+
 1. Modify the `.env` file (or leave it as is):
     ```
     # choose a schema (must be the name of a folder)
