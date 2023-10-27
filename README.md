@@ -11,7 +11,7 @@ Spin up local PostgreSQL instances in seconds with preloaded sample data.
 ## Get started
 1. Modify the `.env` file (or leave it as is):
     ```
-    # choose a schema (name of a folder)
+    # choose a schema (must be the name of a folder)
     SAMPLE_SCHEMA=stocks
 
     # add database credentials
@@ -43,7 +43,7 @@ Spin up local PostgreSQL instances in seconds with preloaded sample data.
     database=example
     user=postgres
     password=password
-    string=postgresql://postgres:pass1@localhost:5432/example
+    string=postgresql://postgres:password@localhost:5432/example
     ```
 
 To stop the container you can press CTRL+C.
