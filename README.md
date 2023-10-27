@@ -11,7 +11,7 @@ Spin up local PostgreSQL instances in seconds with preloaded sample data.
 ## Get started
 1. Modify the `.env` file (or leave it as is):
     ```
-    # choose a schema
+    # choose a schema (name of a folder)
     SAMPLE_SCHEMA=stocks
 
     # add database credentials
