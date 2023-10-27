@@ -1,0 +1,11 @@
+
+CREATE TABLE stocks (
+    date TIMESTAMPTZ NULL,
+    symbol TEXT NULL,
+    open DOUBLE PRECISION NULL,
+    high DOUBLE PRECISION NULL,
+    low DOUBLE PRECISION NULL,
+    close DOUBLE PRECISION NULL,
+    adj_close DOUBLE PRECISION NULL,
+    volume BIGINT NULL
+)
